@@ -31,6 +31,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "EngineerMode",
+	owner: "xiaomi",
+	apk: "proprietary/priv-app/EngineerMode/EngineerMode.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "SoterService",
 	owner: "redmi",
 	apk: "proprietary/vendor/app/SoterService/SoterService.apk",
