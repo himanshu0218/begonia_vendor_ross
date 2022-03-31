@@ -43,6 +43,13 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/lib/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvt_avsync.so \
     vendor/redmi/begonia/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
     vendor/redmi/begonia/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
+    vendor/redmi/begonia/proprietary/lib/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libem_support_jni.so \
+    vendor/redmi/begonia/proprietary/lib/libem_audio_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libem_audio_jni.so \
+    vendor/redmi/begonia/proprietary/lib/libem_usb_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libem_usb_jni.so \
+    vendor/redmi/begonia/proprietary/lib/libem_wifi_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libem_wifi_jni.so \
+    vendor/redmi/begonia/proprietary/lib/libaudio_param_parser-sys.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudio_param_parser-sys.so \
+    vendor/redmi/begonia/proprietary/lib/libaudioutilmtk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioutilmtk.so \
+    vendor/redmi/begonia/proprietary/lib/libaudiotoolkit.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiotoolkit.so \
     vendor/redmi/begonia/proprietary/lib64/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk_vt_wrapper.so \
     vendor/redmi/begonia/proprietary/lib64/libmtkavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkavenhancements.so \
     vendor/redmi/begonia/proprietary/lib64/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkperf_client.so \
@@ -52,6 +59,13 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/lib64/libpowerkeeper_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libpowerkeeper_jni.so \
     vendor/redmi/begonia/proprietary/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_cap.so \
     vendor/redmi/begonia/proprietary/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_capenc.so \
+    vendor/redmi/begonia/proprietary/lib64/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_support_jni.so \
+    vendor/redmi/begonia/proprietary/lib64/libem_audio_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_audio_jni.so \
+    vendor/redmi/begonia/proprietary/lib64/libem_usb_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_usb_jni.so \
+    vendor/redmi/begonia/proprietary/lib64/libem_wifi_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_wifi_jni.so \
+    vendor/redmi/begonia/proprietary/lib64/libaudio_param_parser-sys.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudio_param_parser-sys.so \
+    vendor/redmi/begonia/proprietary/lib64/libaudioutilmtk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudioutilmtk.so \
+    vendor/redmi/begonia/proprietary/lib64/libaudiotoolkit.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudiotoolkit.so \
     vendor/redmi/begonia/proprietary/system_ext/bin/mdlogger:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/mdlogger \
     vendor/redmi/begonia/proprietary/system_ext/bin/rtt:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/rtt \
     vendor/redmi/begonia/proprietary/system_ext/bin/trace:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/trace \
@@ -2237,6 +2251,7 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/vendor/thh/ta/fc32e4da17d342449b01c992d56d71bf.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/fc32e4da17d342449b01c992d56d71bf.ta
 
 PRODUCT_PACKAGES += \
+    EngineerMode \
     ImsService \
     SoterService \
     HotwordEnrollmentOKGoogleCORTEXM4 \
